@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+ 
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #1A3E8A;
+	/* background-image: url('./images/beautiful2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; */
+}
+
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
